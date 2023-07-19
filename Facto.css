@@ -1,0 +1,48 @@
+.calcfac{
+    border: groove;
+    display: flex;
+    height: 60px;
+    width: 20%;
+
+    display: inline-block;
+}
+
+.screen{
+    height: inherit;
+    border: groove;
+    font-family: "Consolas";
+    
+}
+
+.screen .screen_content{
+    width: 99%;
+    height: 25px;
+    font-family: "Consolas";
+    font-size: x-large;
+    background-color: rgb(236, 235, 229);
+    border:none
+}
+
+.screen #theNbre{
+    /*border-bottom: 1px solid rgb(207, 203, 203);*/
+}
+
+.btn{
+    margin-top: 15px;
+    height: 60px ;
+    font-family: 'Consolas';
+    width: 80px;
+    background-color:rgb(207, 207, 184);
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover{
+background-color: beige;
+}
+
+.all_btn{
+    margin: 10px;
+    margin-left: 15px;
+}

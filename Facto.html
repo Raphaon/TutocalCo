@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factoriel Number </title>
+    <link rel="stylesheet" href="./Facto.css">
+</head>
+<body>
+    
+    <div class="calcfac">
+        <div class="screen">
+            <input type="number" value="0" name="nbre" class="screen_content" id="theNbre" min="0" >
+            <input type="text" class="screen_content" name="rep" readonly id="result">
+        </div>
+       
+
+        <div class="all_btn">
+            <input type="button" class="btn btn_nbre" onclick="writeNbre(this.value)" name="button" value="9">
+            <input type="button" class="btn btn_nbre" onclick="writeNbre(this.value)" name="button" value="8">
+            <input type="button" class="btn btn_nbre" onclick="writeNbre(this.value)" name="button" value="7">
+            <input type="button" class="btn btn_nbre" name="button" value="6">
+            <br><br>
+            <input type="button" class="btn btn_nbre" onclick="writeNbre(this.value)" name="button" value="5">
+            <input type="button" class="btn btn_nbre"  onclick="writeNbre(this.value)" name="button" value="4">
+            <input type="button" class="btn btn_nbre" onclick="writeNbre(this.value)" name="button" value="3">
+            <input type="button" class="btn btn_nbre" onclick="writeNbre(this.value)" name="button" value="2">
+            <br><br>
+            <input type="button" class="btn btn_nbre" onclick="writeNbre(this.value)" name="button" value="1">
+            <input type="button" class="btn btn_nbre" onclick="writeNbre(this.value)" name="button" value="0">
+            <input type="button" class="btn" id="calculateFact" value="n!">
+            <input type="button" class="btn" id="clear" value="Clear">
+            <br><br>
+            <input type="button" class="btn btn_nbre" id='expo_btn' name="button" value="e^">
+            <input type="button" class="btn btn_nbre" id='sqrt_btn' name="button" value="Sqrt(n)">
+            <input type="button" class="btn btn_nbre" id='carre_btn' name="button" value="X²">
+        </div>
+       
+        
+    </div>
+
+
+
+
+<script src="./factoCal.js"></script>
+</body>
+</html>
